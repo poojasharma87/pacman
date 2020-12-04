@@ -12,28 +12,28 @@ var gameStarted;
 function preload()
 {
   // load in ghost images
-  ghostRed = loadImage('pacman/monster4.gif');
-  ghostGreen = loadImage('pacman/monster1.gif');
-  ghostOrange = loadImage('pacman/monster3.gif');
-  ghostBlue = loadImage('pacman/monster5.gif');
+  ghostRed = loadImage('monster4.gif');
+  ghostGreen = loadImage('monster1.gif');
+  ghostOrange = loadImage('monster3.gif');
+  ghostBlue = loadImage('monster5.gif');
   
   // load in pacman images
-  pacmanLeft = loadImage('pacman/pacman_left.gif');
-  pacmanRight = loadImage('pacman/pacman_right.gif');
-  pacmanUp = loadImage('pacman/pacman_up.gif');
-  pacmanDown = loadImage('pacman/pacman_down.gif');
-  pacmanStand = loadImage('pacman/pacman_stand.gif');
+  pacmanLeft = loadImage('pacman_left.gif');
+  pacmanRight = loadImage('pacman_right.gif');
+  pacmanUp = loadImage('pacman_up.gif');
+  pacmanDown = loadImage('pacman_down.gif');
+  pacmanStand = loadImage('pacman_stand.gif');
  // pacmanRight3 = loadImage('pacman_right_3.png');
   
   // load in heart image
- heart = loadImage('pacman/special.gif');
+ heart = loadImage('special.gif');
   
   // load in sounds
   //soundFormats('mp3', 'ogg');
- sirenSound = loadSound('pacman/sirensound.wav');
- gameoverSound = loadSound('pacman/gameOversound.wav');
- scoreSound = loadSound('pacman/scoresound.wav');
-startSound = loadSound('pacman/startSound.wav');
+ sirenSound = loadSound('sirensound.wav');
+ gameoverSound = loadSound('pacmangameOversound.wav');
+ scoreSound = loadSound('scoresound.wav');
+startSound = loadSound('startSound.wav');
   
 }
 
